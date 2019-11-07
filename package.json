@@ -1,0 +1,37 @@
+{
+  "name": "fizzbuzz-nodejs",
+  "version": "0.0.1",
+  "description": "FizzBuzz 3 & 5",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/vijayGames/nodejsApi.git"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "jshint": "^2.10.3",
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./node_modules/mocha/bin/mocha .",
+    "jshint": "node node_modules/jshint/bin/jshint ."
+  },
+  "keywords": [
+    "fizzbuzz",
+    "javascript",
+    "node",
+    "mocha",
+    "heroku"
+  ],
+  "author": "Vijay Singh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js": "^0.1.0",
+    "node": "^12.13.0"
+  }
+}
